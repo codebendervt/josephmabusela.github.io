@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/25/22/22/roses-1770165__340.png")
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: inline-flex;
+  padding: 20px;
+  grid-template-columns: 50% 50%;
+}
+
+.left {
+  width: 95%;
+  height: 80vh;
+  padding: 10em;
+  
+}
+
+.right {
+  width: 95%;
+  height: 80vh;
+  padding: 10px;
+  border: 1px solid;
+  overflow: auto;
+  background-color: lightpink;
+}
+
+#editor {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: .5vw;
+}
+
+#preview {
+  padding: 10px;
+}
+
+#header {
+  color: darkolivegreen;
+}
